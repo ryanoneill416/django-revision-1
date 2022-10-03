@@ -19,6 +19,7 @@ if os.path.isfile('env.py'):
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+CSRF_TRUSTED_ORIGINS = ['https://8000-ryanoneill4-djangorevis-x54np5i5w3f.ws-eu67.gitpod.io']
 
 
 # Quick-start development settings - unsuitable for production
