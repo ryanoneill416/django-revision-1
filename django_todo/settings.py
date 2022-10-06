@@ -29,7 +29,7 @@ CSRF_TRUSTED_ORIGINS = ['https://8000-ryanoneill4-djangorevis-x54np5i5w3f.ws-eu6
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 if DEBUG:
     ALLOWED_HOSTS = ['localhost']
